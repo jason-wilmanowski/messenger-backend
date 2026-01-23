@@ -4,6 +4,7 @@ sqlalchemy
 pydantic_settings
 passlib[bcrypt]
 python-jose[cryptography]
+PyJWT
 python-multipart
 websockets
 psycopg2-binary
