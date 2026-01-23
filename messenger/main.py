@@ -30,7 +30,8 @@ app.include_router(websocket.router, tags=["websocket"] )
 origins = [
     "http://127.0.0.1:5500",
     "http://localhost:5500",
-    "http://127.0.0.1:5500/"
+    "http://127.0.0.1:5500/",
+    "https://messenger-frontend-20gh3rw50-jason-wilmanowskis-projects.vercel.app"
 ]
 
 # cors middleware for cross origin access to backend
